@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(imagenes/foto7.avif)no-repeat;
+    background-size: 100vw 100vh;
+}
+.LOGIN{
+    width: 450px;
+    background: #e6c300;
+    color:rgb(0, 0, 0); 
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.LOGIN .LOGIN1 h2{
+    text-align: center;
+    font-size: 36px;
+}
+.LOGIN .LOGIN1 .datos{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 30px 0;
+}
+.datos input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.datos input::placeholder{
+    color: #fff;
+}
+.datos i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.LOGIN .Contraseña{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.LOGIN .Contraseña label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.LOGIN .Contraseña a{
+    color: #020202;
+    text-decoration: none;
+}
+.LOGIN .Contraseña a:hover{
+    text-decoration: underline;
+}
+.LOGIN .boton{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, -1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #070707;
+    font-weight: 600;
+}
+.LOGIN .Registrate{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.LOGIN .Registrate p a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.LOGIN .Registrate p a:hover{
+    text-decoration: underline;
+}
