@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+INICIAR SESION
+OCTYPE html>
 <head>
     <title> TAKE CARE WITH US G.A. INICIAR SESION </title>
     <link rel="shortcut icon" href="css/imagenes/logo.ico" type="image/x-icon">
@@ -6,7 +7,8 @@
     <link rel="stylesheet" href="css/fontello.css">
 </head>
 <body>
-    <div class="LOGIN">
+   
+    <div class="LOGIN login">
         <div class="LOGIN1">
             <h2>INICIA TU SESIÓN</h2>
             <div class="datos">
@@ -34,12 +36,72 @@
                 <a href="#">¿Olvidaste tu Contraseña?</a>
             </div>
 
-            <a href="TAKE CARE WITH US G.A. 2.html"><button type="submit" class="boton">Ingresar</button></a>
+            <a href="TAKE CARE WITH US G.A. 2.html"><button type="submit" class="boton" >Iniciar Sesión</button></a>
             
             <div class="Registrate">
-                <p>¿No tienes cuenta?<a href="#">Registrate</a></p>
+                <p>¿No tienes cuenta?<input type="submit" value="Registrate"id="sign-up"></p>
             </div>
         </div>
-
     </div>
+
+
+
+    <div class="Registrarce register hide">
+        <div class="Registrarce1">
+            <h2>Crea tu Cuenta</h2>
+            <div class="datosr">
+                <i class="icon-usuario"></i>
+                <input
+                type="text"
+                placeholder="Nombre y Apellido"
+                class="dato"
+                autocomplete="off"
+                required
+                />
+            </div>
+            <div class="datosr">
+                <i class="icon-correo"></i>
+                <input
+                type="email"
+                placeholder="Correo"
+                class="dato"
+                autocomplete="off"
+                required
+                />
+            </div>
+            <div class="datosr">
+                <i class="icon-telefono"></i>
+                <input
+                type="number"
+                placeholder="Numero Telefonico"
+                class="dato"
+                autocomplete="off"
+                required
+                />
+            </div>
+            <div class="datosr">
+                <i class="icon-candado"></i>
+                <input
+                type="password"
+                placeholder="Contrasena nueva"
+                class="dato"
+                autocomplete="off"
+                required
+                />
+            </div>
+            <div class="datosr">
+                <i class="icon-candado"></i>
+                <input
+                type="password"
+                placeholder="Escriba su Contrasena nuevamente"
+                class="dato"
+                autocomplete="off"
+                required
+                />
+            </div>    
+            <button type="submit" class="boton" id="sign-in">Registrarse</button>
+        </div>
+    </div>
+    <script src="css/TRANSICION.js"></script>
+
 </body>
